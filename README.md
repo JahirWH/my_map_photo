@@ -1,4 +1,3 @@
-# blog_del_novato
-# mxsetup
-# my_notes
-# my_map_photo
+# my map
+
+- Visor de fotos por geolocalizacion de las fotos
