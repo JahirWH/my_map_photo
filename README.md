@@ -1,3 +1,3 @@
-# my map
+# Ver tus fotos en un mapa con geolocaliacion
 
-- Visor de fotos por geolocalizacion de las fotos
+- ve donde has sacado cada foto de manera dinamica

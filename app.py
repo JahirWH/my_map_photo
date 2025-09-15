@@ -20,6 +20,7 @@ def get_gps_from_exif(img_path):
         return None
 
     # Convertir a decimal
+
     
     
     def to_float(ratio):
@@ -55,3 +56,4 @@ for foto in os.listdir(folder):
         ).add_to(mapa)
 
 mapa.save("visor.html")
+
