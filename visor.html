@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_4e4fb9129d63431488ddfe9205b409cb {
+                #map_5546a42711ae858b7ee8bad210d6efc7 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -54,19 +54,19 @@
 <body>
     
     
-            <div class="folium-map" id="map_4e4fb9129d63431488ddfe9205b409cb" ></div>
+            <div class="folium-map" id="map_5546a42711ae858b7ee8bad210d6efc7" ></div>
         
 </body>
 <script>
     
     
-            var map_4e4fb9129d63431488ddfe9205b409cb = L.map(
-                "map_4e4fb9129d63431488ddfe9205b409cb",
+            var map_5546a42711ae858b7ee8bad210d6efc7 = L.map(
+                "map_5546a42711ae858b7ee8bad210d6efc7",
                 {
-                    center: [20.0, -100.0],
+                    center: [23.6345, -102.5528],
                     crs: L.CRS.EPSG3857,
                     ...{
-  "zoom": 3,
+  "zoom": 6,
   "zoomControl": true,
   "preferCanvas": false,
 }
@@ -78,7 +78,7 @@
 
         
     
-            var tile_layer_e8c20c2882fafd8c5044cc4cee945199 = L.tileLayer(
+            var tile_layer_8f0f533aa742c0b6e7af90f7efa16042 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -95,7 +95,55 @@
             );
         
     
-            tile_layer_e8c20c2882fafd8c5044cc4cee945199.addTo(map_4e4fb9129d63431488ddfe9205b409cb);
+            tile_layer_8f0f533aa742c0b6e7af90f7efa16042.addTo(map_5546a42711ae858b7ee8bad210d6efc7);
         
+    
+            var marker_06c1d851406c1caabf3fd1ec62780adb = L.marker(
+                [48.056552777777775, -1.1516527777777776],
+                {
+}
+            ).addTo(map_5546a42711ae858b7ee8bad210d6efc7);
+        
+    
+            var icon_9cbf3edeb99d5ee0b5c873aa689dee96 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "camera",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6984b85b5660341e0a2ac604a054283c = L.popup({
+  "maxWidth": 400,
+});
+
+        
+            
+                var html_dcfcf334841d2d3f14865fbc36129bd2 = $(`<div id="html_dcfcf334841d2d3f14865fbc36129bd2" style="width: 100.0%; height: 100.0%;">             <div style="text-align: center;">                 <h4>Argentré-du-Plessis_-_4_rue_d'Anjou_-_20250225_(1).jpeg</h4>                 <img src='fotos/Argentré-du-Plessis_-_4_rue_d'Anjou_-_20250225_(1).jpeg' width='300px' style='max-height: 300px; object-fit: contain;'>                 <p><strong>Coordenadas:</strong><br>                 Lat: 48.056553<br>                 Lon: -1.151653</p>             </div>             </div>`)[0];
+                popup_6984b85b5660341e0a2ac604a054283c.setContent(html_dcfcf334841d2d3f14865fbc36129bd2);
+            
+        
+
+        marker_06c1d851406c1caabf3fd1ec62780adb.bindPopup(popup_6984b85b5660341e0a2ac604a054283c)
+        ;
+
+        
+    
+    
+            marker_06c1d851406c1caabf3fd1ec62780adb.bindTooltip(
+                `<div>
+                     Argentré-du-Plessis_-_4_rue_d'Anjou_-_20250225_(1).jpeg
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_06c1d851406c1caabf3fd1ec62780adb.setIcon(icon_9cbf3edeb99d5ee0b5c873aa689dee96);
+            
 </script>
 </html>

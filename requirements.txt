@@ -1,0 +1,34 @@
+# Dependencias para Mapa de Fotos con Geolocalización
+# ===================================================
+
+# Folium - Para crear mapas interactivos
+folium>=0.14.0
+
+# Pillow (PIL) - Para procesamiento de imágenes y extracción de metadatos EXIF
+Pillow>=9.0.0
+
+# Dependencias adicionales recomendadas
+# ====================================
+
+# Para mejor rendimiento con archivos grandes
+numpy>=1.21.0
+
+# Para logging avanzado (opcional)
+colorlog>=6.7.0
+
+# Para validación de archivos (opcional)
+python-magic>=0.4.27
+
+# Notas de instalación:
+# ====================
+# 
+# Instalación básica:
+# pip install -r requirements.txt
+#
+# Instalación con dependencias opcionales:
+# pip install -r requirements.txt --upgrade
+#
+# Instalación en entorno virtual (recomendado):
+# python -m venv venv
+# source venv/bin/activate  # En Windows: venv\Scripts\activate
+# pip install -r requirements.txt
