@@ -143,12 +143,3 @@ Puedes verificar si tus fotos tienen datos GPS usando herramientas como:
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
-## 👨‍💻 Autor
-
-Tu Nombre - [@tu_usuario](https://github.com/tu_usuario)
-
-## 🙏 Agradecimientos
-
-- [Folium](https://python-visualization.github.io/folium/) - Para la creación de mapas interactivos
-- [Pillow (PIL)](https://pillow.readthedocs.io/) - Para el procesamiento de imágenes
-- [OpenStreetMap](https://www.openstreetmap.org/) - Para los datos del mapa base
